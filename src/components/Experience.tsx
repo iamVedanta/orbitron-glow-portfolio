@@ -1,3 +1,7 @@
+import wildcraft from '@/assets/wildcraft.png';
+import hpe from '@/assets/hpe_jpg.jpg';
+import uandi from '@/assets/u&i.png';
+
 const Experience = () => {
   const experiences = [
     {
@@ -5,7 +9,7 @@ const Experience = () => {
       role: "Data Analyst Intern",
       period: "Jul 2025 - Aug 2025",
       description: "Contributed to supply chain optimization by analyzing procurement costs and identifying alternative suppliers. Implemented data-driven strategies that enhanced operational efficiency.",
-      logo: "https://wildcraft.com/static/version1722421397/frontend/Wildcraft/wildcraft/en_US/images/wildcraft-logo.svg",
+      logo: wildcraft,
       gradient: "bg-gradient-primary"
     },
     {
@@ -13,7 +17,7 @@ const Experience = () => {
       role: "Project Intern",
       period: "Mar 2025 - May 2025", 
       description: "Built a comprehensive platform for women's safety, featuring community support systems and intelligent location safety ratings using machine learning algorithms.",
-      logo: "https://www.hpe.com/etc.clientlibs/hpe-www/main/clientlib-base/resources/hpe-logo.svg",
+      logo: hpe,
       gradient: "bg-gradient-secondary"
     },
     {
@@ -21,7 +25,7 @@ const Experience = () => {
       role: "Center Leader",
       period: "Apr 2024 - Apr 2025",
       description: "Led a team of 60+ volunteers, managed multi-center operations, and spearheaded successful crowdfunding campaigns. Developed leadership and project management skills in a social impact environment.",
-      logo: "https://media.licdn.com/dms/image/D4D0BAQG0n-y4L4t2DA/company-logo_200_200/0/1688536952220/ui_org_logo",
+      logo: uandi,
       gradient: "bg-accent"
     }
   ];
