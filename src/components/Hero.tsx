@@ -14,14 +14,14 @@ const Hero = () => {
             
             <h1 className="text-5xl lg:text-7xl font-orbitron font-bold leading-tight">
               <span className="text-foreground">Vedanta</span>{' '}
-              <span className="bg-gradient-warm bg-clip-text text-transparent glow-orange">
+              <span className="text-primary glow-orange">
                 MS
               </span>
             </h1>
             
             <h2 className="text-3xl lg:text-5xl font-orbitron font-bold text-muted-foreground">
               I architect{' '}
-              <span className="bg-gradient-secondary bg-clip-text text-transparent glow-yellow">
+              <span className="text-primary glow-orange">
                 intelligent systems
               </span>
             </h2>
@@ -44,7 +44,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground font-orbitron font-bold glow-box-yellow"
+                className="border-primary text-primary hover:bg-primary/10 hover:text-primary font-orbitron font-bold glow-box-orange"
                 asChild
               >
                 <a href="#contact">CONNECT</a>

@@ -18,7 +18,7 @@ const Navigation = () => {
           {/* Logo */}
           <a 
             href="#" 
-            className="text-3xl font-orbitron font-bold bg-gradient-warm bg-clip-text text-transparent glow-orange"
+            className="text-3xl font-orbitron font-bold text-primary glow-orange"
           >
             VMS
           </a>
